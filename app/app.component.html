@@ -1,0 +1,5 @@
+<StackLayout>
+	<TimePicker #Picker [(ngModel)]='time'></TimePicker>
+    <Label text="{{czas}}" class="time"></Label>
+    <BUTTON [text]="isOn ? 'STOP' : 'START'" (tap)="toggle()"></BUTTON>
+</StackLayout>
